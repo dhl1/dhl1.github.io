@@ -1,0 +1,269 @@
+/*
+* @Author: dhl
+* @Date:   2017-12-06 14:31:09
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-12-06 17:08:18
+*/
+
+
+/* 头部开始 */
+.header {
+	 height: 80px;
+	 background-color: #de15df;
+}
+
+.header .w {
+	 position: relative;
+}
+
+.header .close {
+	 background: rgba(0,0,0,.5);
+	 color: #fff;
+	 cursor: pointer;
+	 position: absolute;
+	 right: 0px;
+	 top: 5px;
+}
+
+
+
+/* 导航开始 */
+.nav {
+	 height: 30px;
+	 border-bottom: 1px solid #ddd;
+	 background-color: #e3e4e5;
+	 line-height: 30px;
+}
+
+.l_address {
+	 float: left;
+	 margin-left: 210px;
+}
+
+.l_address .address  {
+	 color: red;
+	 font-size: 14px;
+}
+
+.r_nav {
+	 float: right;
+}
+
+.r_nav li {
+	 float: left;
+}
+
+.r_nav .line {
+	 width: 1px;
+	 height: 10px;
+	 background-color: #ccc;
+	 margin-top: 10px;
+	 margin-left: 10px;
+	 margin-right: 10px;
+}
+
+.r_nav .iconfont {
+	 font-size: 12px;
+}
+
+
+.r_nav li:last-child {
+	position: relative;
+}
+
+.r_nav li:last-child .sj {
+	 display: block;
+	 width: 0px;
+	 height: 0px;
+	 border-top: 5px solid transparent;
+	 border-bottom: 5px solid #fff;
+	 border-left: 5px solid transparent;
+	 border-right: 5px solid transparent;
+	 position: absolute;
+	 left: 22px;
+	 bottom: -1px;
+}
+
+
+.r_nav .code {
+	 width: 66px;
+	 height: 66px;
+	 border: 1px solid #ccc;
+	 padding: 2px;
+	 box-sizing: border-box;
+	 position: absolute;
+	 left: -6px;
+	 bottom: -66px;
+}
+
+.r_nav .code  img {
+	 display: block;
+	 width: 60px;
+	 height: 60px;
+}
+
+
+/* 主体导航 */
+.m_nav {
+	 height: 140px;
+	 background-color: #f6f6f6;
+}
+
+.logo {
+	float: left;
+	position: relative;
+}
+
+.logo a {
+	 width: 190px;
+	 height: 170px;
+	 display: block;
+	 background: url("../img/logo.v3.jpg") no-repeat;
+	 text-indent: -2000em;
+	 position: absolute;
+	 top: -30px;
+	 box-shadow: 0px -1px 5px rgba(0,0,0,.2);
+}
+
+
+/* 搜索框 */
+.search_box {
+	float: left;
+	border: 1px solid red;
+	margin-left: 320px;
+	margin-top: 25px;
+	position: relative;
+}
+
+.search_box .search  {
+	 width: 498px;
+	 height: 33px;
+	 padding-left: 5px;
+	 box-sizing: border-box;
+	 float: left;
+}
+
+.search_box  .btn {
+	 width: 50px;
+	 height: 33px;
+	 background-color: #f10215;
+	 float: left;
+}
+
+.search_box .camera {
+	position: absolute;
+	right: 55px;
+	top: 6px;
+	font-size: 20px;
+}
+
+.search_box .search_img {
+	 position: absolute;
+	 right: 14px;
+	 top: 6px;
+	 font-size: 20px;
+	 color: #fff;
+}
+
+
+.m_nav .cart {
+	 width: 188px;
+	 height: 33px;
+	 line-height: 33px;
+	 text-align: center;
+	 border: 1px solid #ccc;
+	 background-color: #fff;
+	 float: left;
+	 margin-left: 30px;
+	 margin-top: 25px;
+	 position: relative;
+}
+
+.cart .iconfont {
+	 color: red;
+}
+
+.cart a {
+	 color: red;
+}
+
+.cart .number {
+	 font-style: normal;
+	 width: 14px;
+	 height: 14px;
+	 background-color: red;
+	 text-align: center;
+	 border-radius: 50%;
+	 display: block;
+	 line-height: 14px;
+	 color: #fff;
+	 font-size: 12px;
+	 position: absolute;
+	 right: 30px;
+	 top: 4px;
+}
+
+
+
+/* 热词搜索 */
+.hot {
+	 float: left;
+	 margin-left: 320px;
+	 margin-top: 5px;
+}
+
+
+.hot li {
+	 float: left;
+	 margin-right:10px;
+}
+
+
+
+/* 导航项 */
+.nav_item {
+	 float: left;
+	 margin-left: 230px;
+	 margin-top: 32px;
+}
+
+.nav_item  ul, 
+.nav_item li {
+   float: left;
+   font-size: 18px;
+   font-weight: 700;
+}
+.nav_item li:last-child {
+	 margin-right: 15px;
+}
+
+.nav_item li {
+	 margin-right: 30px;
+}
+
+
+.nav_item .line  {
+	 float: left;
+	 width: 1px;
+	 height: 10px;
+	 background-color: #ccc;
+	 margin-top: 10px;
+	 margin-right: 15px;
+}
+
+
+/* 好货 */
+.goods {
+	 float: right;
+} 
+
+.goods a {
+	 width: 190px;
+	 height: 40px;
+	 display: block;
+	 background: url("../img/5a1fc71aN74be1e33.gif") no-repeat;
+	 margin-top: 16px;
+}
+
+
+ 

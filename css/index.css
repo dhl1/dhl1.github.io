@@ -1,0 +1,468 @@
+/*
+* @Author: dhl
+* @Date:   2017-12-06 14:39:22
+* @Last Modified by:   dhl
+* @Last Modified time: 2017-12-07 16:42:42
+*/
+
+body {
+	 background-color: #f6f6f6;
+}
+
+
+/* 首页主体 */
+.jd_bg {
+	 width: 100%;
+	 height: 480px;
+	 /* 让当前元素脱标不占位置，不能影响网页结构 */
+	 position: absolute;
+}
+
+.jd_bg a {
+	 width: 100%;
+	 height: 100%;
+	 display: block;
+	 background: url("../img/5a256c07Nb12b9856.png") no-repeat top center;
+}
+
+
+/* 京东主体结构 */
+.jd_m_body {
+	 height: 480px;
+	 /* 目的：提高元素的层级 */
+	 position: relative;
+	 margin-bottom: 15px;
+}
+
+
+.jd_m_body .l_aside {
+	 float: left;
+	 width: 190px;
+	 height: 100%;
+	 background-color: #6e6568;
+	 padding-top: 16px;
+	 box-sizing: border-box;
+}
+
+.jd_m_body .l_aside li {
+	 padding-left: 15px;
+	 height: 28px;
+	 line-height: 28px;
+}
+
+.jd_m_body .l_aside li:hover {
+	 background-color: rgba(0,0,0,.5);
+}
+
+.jd_m_body .l_aside a {
+	 color: #fff;
+}
+
+.jd_m_body .l_aside a:hover {
+	 color: red;
+}
+
+
+/* 中间广告区域 */
+.jd_m_body .m_banner  {
+	 float: left;
+	 width: 790px;
+	 height: 100%;
+	 margin-left: 10px;
+}
+
+.jd_m_body .m_banner .top {
+	 position: relative;
+}
+
+.pages a {
+	 width: 30px;
+	 height: 60px;
+	 display: block;
+	 text-align: center;
+	 line-height: 60px;
+	 color: #fff;
+	 background-color: rgba(0,0,0,.5);
+	 font-family: "宋体";
+	 position: absolute;
+	 top: 50%;
+	 margin-top: -30px;
+	 /* transform: translateY(-50%); */
+	 /* transform: translate(0,-50%); */
+}
+.pages a:last-child {
+	 right: 0px;
+}
+
+
+/* 圆点按钮 */
+.dotted {
+	 height: 20px;
+	 width: 182px;
+	 background: rgba(255,255,255,.5);
+	 position: absolute;
+	 left: 50%;
+	 margin-left: -91px;
+	 bottom: 20px;
+	 border-radius: 20px;
+}
+.dotted  ul {
+	 width: 100%;
+	 height: 100%;
+	 display: flex;
+	
+	 /* 设置主轴的对齐方法 */
+	 justify-content: space-around;
+
+	 /* 设置侧轴的对齐方式 */
+	 align-items: center;
+}
+.dotted li {
+	 width: 12px;
+	 height: 12px;
+	 border-radius: 50%;
+	 background-color: #fff;
+}
+
+.dotted li:nth-child(4) {
+	 background-color: red;
+}
+
+.dotted li:hover {
+	 cursor: pointer;
+	 background-color: red;
+}
+
+
+.jd_m_body .m_banner .bot  {
+	 margin-top: 10px;
+}
+
+.jd_m_body .m_banner .bot a:first-child {
+	 float: left;
+}
+
+.jd_m_body .m_banner .bot a:last-child  {
+	 float: right;
+}
+
+
+
+.jd_m_body .r_aside {
+	 float: right;
+	 width: 190px;
+	 height: 100%;
+	 background-color: #fff;
+}
+
+.jd_m_body .r_aside  .r_top {
+	 height: 115px;
+	 border-bottom: 1px solid #ccc;
+	 padding-top: 20px;
+	 padding-left: 15px;
+
+	 box-sizing: border-box;
+}
+
+
+.user .img {
+	 width: 40px;
+	 height: 40px;
+	 border-radius: 50%;
+	 float: left;
+
+}
+
+.user .img img {
+	 width: 100%;
+	 height: 100%;
+	 border-radius: 50%;
+}
+
+
+.user .infor {
+	 float: left;
+	 margin-left: 5px;
+}
+
+
+.btns a {
+	 width: 71px;
+	 height: 20px;
+	 display: inline-block;
+	 text-align: center;
+	 line-height: 20px;
+	 border: 2px solid red;
+	 color: red;
+	 background-color: #fff;
+	 margin-top: 20px;
+}
+
+.btns a:hover {
+	  color: #fff;
+	  background-color: red;
+}
+
+
+
+
+
+/* 最新公告开始 */
+.r_middle {
+	 padding-left: 12px;
+	 padding-right: 12px;
+	 height: 154px;
+	 border-bottom: 1px solid #ccc;
+
+}
+.r_middle .title  {
+	 height: 25px;
+	 line-height: 25px;
+	 border-bottom: 1px solid #ccc;
+}
+
+.r_middle .title  li {
+	 float: left;
+}
+.r_middle .title  li:last-child {
+	 float: right;
+}
+
+.r_middle .title  li:hover {
+	 border-bottom: 2px solid red;
+}
+.r_middle .title  .line {
+	 width: 1px;
+	 height: 10px;
+	 background-color: #ccc;
+	 margin-top: 9px;
+	 margin-left: 5px;
+	 margin-right: 5px;
+}
+
+
+.r_middle .list_item  {
+	 padding-top: 20px;
+}
+
+.r_middle .list_item li {
+	 height: 26px;
+}
+
+
+
+
+
+/* 右侧底部开始 */
+.r_bot {
+	 height: 209px;
+	 overflow: hidden;
+}
+
+.r_bot ul {
+	 width: 195px;	 
+}
+
+.r_bot li {
+	float: left;
+	width: 47px;
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.r_bot li a {
+	 width: 100%;
+	 height: 100%;
+	 display: block;
+	 text-align: center;
+	 padding-top: 45px;
+	 box-sizing: border-box;
+	 position: relative;
+}
+.r_bot li  i {
+	 width: 25px;
+	 height: 25px;
+	 display: block;
+	 background: url("../img/sprite_fs@1x.png") no-repeat;
+	 position: absolute;
+	 top: 15px;
+	 left: 50%;
+	 transform: translateX(-50%);
+}
+
+
+
+
+/* 京东秒杀 */
+.jd_seckill {
+	height: 305px;
+	margin-bottom: 20px;
+}
+
+.jd_seckill .top_sk {
+	 height: 55px;
+	 line-height: 55px;
+	 background: url("../img/seckill_hd.png") no-repeat;
+	 position: relative;
+	 overflow: hidden;
+
+	 padding-left: 30px;
+	 padding-right: 30px;
+}
+
+.jd_seckill .top_sk .sj  {
+	 width: 28px;
+	 height: 28px;
+	 display: block;
+	 background: url("../img/sprite_index@1x.png") no-repeat right -48px;
+	 position: absolute;
+	 left: -4px;
+	 top: -4px;
+}
+
+
+.l_sk {
+	 float: left;
+	 position: relative;
+}
+
+.clock {
+	 width: 35px;
+	 height: 39px;
+	 display: block;
+	 background: url("../img/sprite_index@1x.png") no-repeat left -39px;
+	 position: absolute;
+	 top: 8px;
+}
+
+.text {
+	 margin-left: 40px;
+	 font-size: 25px;
+	 color: #fff;
+}
+
+.l_sk a {
+	margin-left: 10px;
+	color: #fff;
+}
+
+
+
+
+/* 右侧容器开始 */
+.r_sk {
+	 float: right;
+}
+
+.r_sk>span {
+	 color: #fff;
+	 float: left;
+}
+
+.r_sk .time {
+	 float: left;
+}
+
+.r_sk .time li {
+	 float: left;
+}
+
+.r_sk .time li:nth-child(2n) {
+	 margin-top: 20px;
+}
+
+
+.r_sk .time .pub {
+	 width: 35px;
+	 height: 35px;
+	 text-align: center;
+	 line-height: 35px;
+	 background-color: #440106;
+	 color: #f90013;
+	 font-size: 20px;
+	 border-radius: 5px;
+	 margin-top: 10px;
+	 margin-left: 5px;
+	 margin-right: 5px;
+}
+
+.r_sk .time .dotted1 {
+	 width: 5px;
+	 height: 5px;
+	 display: block;
+	 border-radius: 50%;
+	 background-color: #440106;
+	 margin-bottom: 6px;
+}
+
+
+
+.bot_sklist {
+	height: 250px;
+	background-color: #fff;
+}
+
+.bot_sklist .l_list {
+	 float: left;
+}
+
+
+.bot_sklist .l_list li {
+	 float: left;
+	 width: 200px;
+	 height: 226px;
+	 border-right: 1px solid #ccc;
+	 margin-top: 12px;
+
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 box-sizing: border-box;
+}
+
+.bot_sklist .l_list li:last-child {
+	border-right: none;
+}
+
+.bot_sklist .l_list li a {
+	 display: block;
+	 text-align: center;
+	 width: 164px;
+	 height: 208px;
+	 position: relative;
+	 overflow: hidden;
+}
+
+.bot_sklist .l_list li a img {
+	 position: absolute;
+	 left: 50%;
+	 transform: translateX(-50%);
+	 transition: all 0.2s linear;
+}
+
+
+.bot_sklist .l_list li a:hover img {
+	  margin-top: -5px;
+}
+
+
+.P_text {
+	 margin-top: 150px;
+	 padding-top: 10px;
+	 text-align: left;
+	 height: 55px;
+}
+
+
+.P_money span {
+	font-weight: 700;
+	color: red;
+	font-size: 20px;
+}
+
+
+.bot_sklist .r_img {
+	 float: right;
+	 margin-top: 12px;
+	 margin-right: 10px;
+}
